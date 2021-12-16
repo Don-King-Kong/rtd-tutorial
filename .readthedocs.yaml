@@ -5,6 +5,10 @@
 # Required
 version: 2
 
+# Install our python package before building the docs
+install:
+- method: pip
+  path: .
 # Set the version of Python and other tools you might need
 build:
   os: ubuntu-20.04
@@ -28,6 +32,4 @@ build:
 # Install our python package before building the docs
 #python:
 #   install:
-    - method: pip
-      path: .
 #   - requirements: docs/requirements.txt

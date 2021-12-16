@@ -22,6 +22,5 @@ Contents
 
    usage
    api
-   
    test
 

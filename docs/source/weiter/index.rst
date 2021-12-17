@@ -4,5 +4,7 @@ Inhalt
 
 
 .. toctree::
+   :maxdepth: 4
 
-  neu
+  neu1
+  neu2

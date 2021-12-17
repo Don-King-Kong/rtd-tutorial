@@ -3,6 +3,6 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "AK - Metadaten"
-authors = [{name = "GDI", email = "INFO@GDI-DE.de"}]
+name = "lumache"
+authors = [{name = "Graziella", email = "graziella@lumache"}]
 dynamic = ["version", "description"]

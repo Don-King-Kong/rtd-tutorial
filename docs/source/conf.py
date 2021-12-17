@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'AK - Metadaten'
+copyright = 'GDI-DI'
+author = 'GDI-DE'
 
 release = '0.1'
 version = '0.1.0'

@@ -62,6 +62,7 @@ if not 'READTHEDOCS' in os.environ:
 
 
 html_theme = 'sphinx_rtd_theme'
+html_theme_path = ["_themes", ]
 
 html_theme_options = {
     #'analytics_id': 'G-XXXXXXXXXX',  #  Provided by Google in your dashboard

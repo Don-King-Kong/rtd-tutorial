@@ -1,5 +1,5 @@
 # Configuration file for the Sphinx documentation builder.
-
+import os
 # -- Project information
 
 project = 'AK - Metadaten'
@@ -34,13 +34,14 @@ exclude_patterns = []
 # -- Options for HTML output
 
 # These folders are copied to the documentation's HTML output
-html_static_path = ['_static']
+
+if not 'READTHEDOCS' in os.environ:
+    html_static_path = ['_static/']
+    html_css_files = ['custom.css',]
 
 # These paths are either relative to html_static_path
 # or fully qualified paths (eg. https://...)
-html_css_files = [
-    '_static/custom.css',
-]
+
 
 #def setup(app):
 #    app.add_css_file('./_static/custom.css')
@@ -72,7 +73,7 @@ html_theme_options = {
     'vcs_pageview_mode': '',
     'style_nav_header_background': 'white',
     # Toc options
-    'collapse_navigation': True,
+    'collapse_navigation': False,
     'sticky_navigation': True,
     'navigation_depth': 4,
     'includehidden': True,

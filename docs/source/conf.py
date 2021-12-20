@@ -35,6 +35,6 @@ import stanford_theme
 html_theme = 'stanford_theme'
 html_theme_path = [stanford_theme.get_html_theme_path()]
 #html_theme = 'sphinx_rtd_theme'
-import lumache
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

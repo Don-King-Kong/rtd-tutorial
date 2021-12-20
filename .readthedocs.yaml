@@ -33,6 +33,6 @@ formats:
 
 # Optionally declare the Python requirements required to build your docs
 # Install our python package before building the docs
-#python:
-#   install:
- #  - requirements: docs/requirements.txt
+python:
+   install:
+   - requirements: docs/requirements.txt

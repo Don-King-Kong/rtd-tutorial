@@ -31,9 +31,9 @@ exclude_patterns = []
 
 # -- Options for HTML output
 
-import sphinx_theme
+import stanford_theme
 html_theme = 'stanford_theme'
-html_theme_path = [sphinx_theme.get_html_theme_path('stanford-theme')]
+html_theme_path = [stanford_theme.get_html_theme_path()]
 #html_theme = 'sphinx_rtd_theme'
 
 html_theme_options = {

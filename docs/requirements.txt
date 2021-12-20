@@ -1,1 +1,1 @@
-pip install stanford-theme
+stanford-theme==1.0.0

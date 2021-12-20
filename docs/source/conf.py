@@ -33,36 +33,8 @@ exclude_patterns = []
 
 # -- Options for HTML output
 
-# These folders are copied to the documentation's HTML output
-
-if not 'READTHEDOCS' in os.environ:
-    html_static_path = ['_static/']
-    html_css_files = ['custom.css',]
-
-# These paths are either relative to html_static_path
-# or fully qualified paths (eg. https://...)
-
-
-#def setup(app):
-#    app.add_css_file('./_static/custom.css')
-
-# on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
-#import os, sys
-#on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-
-#if not on_rtd:  # only import and set the theme if we're building docs locally
-#    import stanford_theme
-#    html_theme = 'stanford_theme'
-#    html_theme_path = ['_themes/stanford_theme']
-#    html_sidebars = []
-    
-    #html_theme_path = [stanford_theme.get_html_theme_path()]
-
-# otherwise, readthedocs.org uses their theme by default, so no need to specify it
-
-
 html_theme = 'sphinx_rtd_theme'
-html_theme_path = ["_themes", ]
+#html_theme_path = ["_themes", ]
 
 html_theme_options = {
     #'analytics_id': 'G-XXXXXXXXXX',  #  Provided by Google in your dashboard

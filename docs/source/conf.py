@@ -9,6 +9,8 @@ author = 'GDI-DE'
 release = '0.1'
 version = '0.1.0'
 
+import sphinx_rtd_theme
+
 # -- General configuration
 
 extensions = [

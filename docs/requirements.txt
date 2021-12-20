@@ -1,2 +1,0 @@
-stanford-theme==1.0.0
-lumache==0.0.0

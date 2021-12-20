@@ -31,6 +31,8 @@ exclude_patterns = []
 
 # -- Options for HTML output
 
+def setup(app):
+    app.add_css_file('custom.css')
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
 #import os, sys

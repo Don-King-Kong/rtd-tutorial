@@ -31,8 +31,17 @@ exclude_patterns = []
 
 # -- Options for HTML output
 
-def setup(app):
-    app.add_css_file('./_static/custom.css')
+# These folders are copied to the documentation's HTML output
+html_static_path = ['_static']
+
+# These paths are either relative to html_static_path
+# or fully qualified paths (eg. https://...)
+html_css_files = [
+    'custom.css',
+]
+
+#def setup(app):
+#    app.add_css_file('./_static/custom.css')
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
 #import os, sys

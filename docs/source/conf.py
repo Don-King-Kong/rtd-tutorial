@@ -34,13 +34,14 @@ exclude_patterns = []
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+html_logo = 'images/GDI-DELogo.jpg'
 #html_theme_path = ["_themes", ]
 
 html_theme_options = {
     #'analytics_id': 'G-XXXXXXXXXX',  #  Provided by Google in your dashboard
     'analytics_anonymize_ip': False,
     'logo_only': False,
-    'display_version': True,
+    'display_version': False,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
     'vcs_pageview_mode': '',

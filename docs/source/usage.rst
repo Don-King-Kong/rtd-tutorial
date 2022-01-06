@@ -15,6 +15,11 @@ To use Lumache, first install it using pip:
 Creating recipes
 ----------------
 
+DOWNLOAD PDF
+AK METADATEN KONVENTIONEN `a link`_.
+
+.. _a link: https://don-king-kong-rtd-tutorial.readthedocs.io/_/downloads/en/1.0.x/pdf/
+
 To retrieve a list of random ingredients,
 you can use the ``lumache.get_random_ingredients()`` function:
 

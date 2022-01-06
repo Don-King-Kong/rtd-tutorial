@@ -64,4 +64,4 @@ True   True   True
 
 This is a paragraph that contains `a link`_.
 
-.. _a link: https://domain.invalid/
+.. _a link: https://don-king-kong-rtd-tutorial.readthedocs.io/_/downloads/en/1.0.x/pdf/

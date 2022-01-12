@@ -20,6 +20,8 @@ Contents
 
 .. toctree::
 
+   usage
+   api
    test
    weiter/index
    ATS/index
